@@ -1,18 +1,18 @@
 # Open Lightweight Assistant Framework (OLAF)
 
-A collection of recommendations for agents, users, and suppliers.
+A collection of recommendations for enterprises, end users, and vendors of agentic solutions for software engineering.
 
-The goal is to make it easier to use, contribute to, develop, and deliver agent solutions.
+The goal is to make agentic solutions easier to use, contribute to, develop, and deliver across a wide range of tools and vendors.
 
 This work is based on the French GenAI "DO TANK."
 
 ## Rationale
 
-- Most enterprises use multiple agent solutions simultaneously (IDE, CLI, or coded agents).
-- Due to disparate structure, naming conventions, and delivery methods from vendors, enterprises must duplicate many files and sometimes code.
-- This makes maintenance and training costly, slowing adoption.
-- No enterprise wants vendor lock-in. Innovation comes from vendors, enterprises, and individual contributors.
-- By sharing common conventions and structure, we aim to protect investment for all (vendors, customers, and users).
+- Most enterprises use multiple agentic solutions at the same time (IDE extensions, CLIs, and coded agents).
+- Each vendor often promotes its own structure, naming conventions, and delivery approach. As a result, enterprises duplicate the same artifacts across tools.
+- This duplication makes rollout, maintenance, and training costly, and it slows adoption.
+- Enterprises want to avoid vendor lock-in while still benefiting from innovation across vendors, enterprises, and individual contributors.
+- By sharing common conventions and structure, we aim to protect investment for everyone involved (enterprises, users, and vendors).
 
 This proposal describes enterprise and user needs without enforcing a specific solution. It guides vendors and enterprises toward a shared structure and common conventions.
 
