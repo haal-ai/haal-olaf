@@ -73,7 +73,7 @@ markdown_extensions:
       permalink: true
 
 extra:
-  social:p
+  social:
     - icon: fontawesome/brands/github
       link: https://github.com/haal-ai/haal-olaf
 
