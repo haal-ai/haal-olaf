@@ -55,7 +55,11 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -72,6 +76,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/haal-ai/haal-olaf
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js
 
 copyright: |
   &copy; 2026 OLAF Community - Licensed under MIT
