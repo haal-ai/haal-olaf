@@ -39,16 +39,14 @@
 - Follow conventional commit format when possible
 - Include issue references in commits
 - Keep commits focused on single changes
-- Manage all AI artifacts (skills, agents, commands, hooks) in the git repository
+- Manage all AI artifacts (skills, agents, commands, hooks) in the Git repository
 - Version all AI artifacts to track changes and enable rollbacks
 - Use semantic versioning for artifact releases
 
 ## Metadata conventions
 
 - Use YAML front matter for markdown files
-- Include creation and modification dates
+- Include creation and modification dates when relevant
 - Add author information when relevant
 - Use consistent tag naming  
 
-
-##

@@ -1,8 +1,8 @@
 # Open Lightweight Assistant Framework Recommendations
 
-This is a collection of recommendations for agents, users, and suppliers.
+This repository provides recommendations for agents, users, and suppliers.
 
-The goal is to facilitate the usage, contributions, development, and delivery of agent solutions.
+The goal is to make it easier to use, contribute to, develop, and deliver agent solutions.
 
 This is based on work done in the French GenAI 'DO TANK'.
 
@@ -12,7 +12,7 @@ This is based on work done in the French GenAI 'DO TANK'.
 - This makes maintenance and training costly, slowing adoption
 - No enterprise wants vendor lock-in as innovation comes from all vendors, enterprises, and individual contributors
 - By sharing common conventions and structure, we aim to protect investment for all (vendors, customers, and users)
-- We express needs for enterprises and users through a proposal without enforcing specific solutions, but guiding vendors and enterprises to align on common structure and conventions
+- This proposal describes enterprise and user needs without enforcing a specific solution. It guides vendors and enterprises toward a shared structure and common conventions.
 
 ## Proposal
 
@@ -37,9 +37,6 @@ Enterprises must have a defined structure to simplify artifact delivery.
 ### Distribution and Management
 - **[Registries](docs/registries.md)** - Registry structure and artifact management
 - **[Installer](docs/installer.md)** - Common installer requirements and specifications
-
-### Agent Specifications
-- **[Agents MD Conventions](docs/agents-md-conventions.md)** - Agent definition and organization standards
 
 ### Included in this proposal
 
@@ -66,5 +63,6 @@ As of February 2026, this is a draft proposal looking for feedback.
 ## Next steps
 - The proposal will be discussed within the French GenAI community organized by the 'DO TANK' representing over 80 enterprises from very large to small
 - It is publicly shared on GitHub to inspire other communities and vendors
-- If it reaches sufficient consensus and adoption, it will become a proposed standard 
+- If it reaches sufficient consensus and adoption, it will become a proposed standard
+
 

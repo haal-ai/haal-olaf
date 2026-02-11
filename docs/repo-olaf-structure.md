@@ -36,14 +36,14 @@
 ## works/
 Contains all temporary work and results from skills or other agents that users must review before moving to the correct repository location or deleting.
 
-- Skills, parallel agents, or subagents must create work results (e.g., code review, new document) in this folder
-- Users must review, correct, delete, or improve results before moving them to their destination folders in the repository
+- Skills, parallel agents, or subagents must create work results (e.g., code review, new document) in this folder.
+- Users must review, correct, delete, or improve results before moving them to their destination folders in the repository.
 
-**Important note**: Recommend adding this folder to .gitignore or exclude it (e.g., .git/info/exclude)
+**Important note**: We recommend adding this folder to .gitignore or excluding it (e.g., .git/info/exclude).
 
 ## data/practices
 Contains all practices shared across all agents and skills.
-- These include coding guidelines, review guidelines, git guidelines, writing guidelines active on the current repository or set of repositories.
+- These include coding guidelines, review guidelines, Git guidelines, and writing guidelines that apply to the current repository or set of repositories.
 - Reference these files in SKILL.md files of skills.
 
 **Important note**: Organizations or teams decide naming conventions, as existing conventions may already be in place.

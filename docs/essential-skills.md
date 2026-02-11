@@ -37,7 +37,7 @@ These essential skills provide:
 - All skills should follow the naming conventions specified in `skills-conventions.md`
 - Skills must include proper front matter with descriptions and tags
 - Each skill should have comprehensive documentation and examples
-- Skills should be versioned and maintained in the git repository
+- Skills should be versioned and maintained in the Git repository
 - Implementations should be tested across different agent platforms
 
 ## Priority Level

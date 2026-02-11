@@ -5,7 +5,7 @@
 The goal of this structure is to avoid or greatly minimize the complexity for enterprises and users to use multiple agentic tools on the same repository.
 
 As of January 2026, each vendor promotes and supports its own structure without providing any common standard.
-This makes it difficult for enterprises and expensive when switching from one tool to another, as many repositories need modification to fit the new tool structure.
+This makes it difficult and costly for enterprises to switch tools, because many repositories need changes to match each tool's structure.
 
 New specifications such as SKILLS or AGENTS.MD have appeared and will continue to appear (e.g., AWS POWERS.md) without providing any common structure.
 

@@ -2,7 +2,7 @@
 
 Registries contain artifacts that users can download, install, uninstall, copy, and modify.
 
-We establish common structure and naming conventions for all registries to simplify installer creation for all targeted vendor tools.
+We aim to establish a common structure and naming conventions for registries to simplify installer creation across vendor tools.
 
 ## Common structure
 

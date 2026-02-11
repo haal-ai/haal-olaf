@@ -2,7 +2,7 @@
 
 ## Skill folder naming  
 - Use kebab-case for skill folder names
-- Follow format 'verb-object-complements'
+- Follow the format 'verb-object-complements'
 - Use unique names 
 - e.g., 'review-git-diff', 'challenge-me', 'bootstrap-functional-spec-from-code'
 
@@ -31,10 +31,9 @@ Where:
 ## Front Matter
 Follow specification format strictly:
 - Ensure description field is clear and uses crisp, precise words
-- Avoid acronyms or jargon in descriptions as LLMs may misinterpret them
+- Avoid acronyms or jargon in descriptions, as large language models (LLMs) may misinterpret them
 
 You may add optional metadata fields to front matter. We recommend:
-
 ```yaml
 olaf_tags: "tag1, tag2"
 ```
