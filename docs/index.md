@@ -68,6 +68,12 @@ graph TD
 
 This framework is based on work from the French GenAI 'DO TANK' and is openly shared to inspire other communities and vendors.
 
+## Next steps
+
+- Discuss the proposal within the French GenAI community organized by the "DO TANK."
+- Share the proposal publicly to inspire other communities and vendors.
+- If it reaches sufficient consensus and adoption, turn it into a proposed standard.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
