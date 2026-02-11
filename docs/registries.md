@@ -45,23 +45,35 @@ Example registry structure (distribution layout):
     └── registries.json
 ```
 
-## Registry manifest (`registries.json`)
+## Registry configuration (`registries.json`)
 
-The registry must provide a machine-readable manifest that installers can use.
-At minimum, it should:
+`registries.json` defines a list of registries that an installer can use as sources for artifacts.
 
-- List available artifacts and their versions.
-- Provide download locations.
-- Provide metadata needed for governance.
+### Primary and secondary registries
 
-Recommended minimum fields per artifact entry:
+- The registry where the `registries.json` file is located is the **primary** registry.
+- The file may also list **secondary** registries to use as additional sources.
+
+### Installation order and overrides
+
+Installers should process registries in **reverse order**:
+
+1. Install artifacts from the last secondary registry.
+2. Continue installing toward the first secondary registry.
+3. Install artifacts from the primary registry last.
+
+This order ensures that when two registries contain artifacts with the same name, the artifact from the primary registry overrides the one from secondary registries.
+
+### Registry entries
+
+Each registry entry should include enough information to locate and trust the source.
+Recommended fields:
 
 - `name`
-- `type` (e.g., `skill`, `agent`, `command`, `hook`, `plugin`)
-- `version`
-- `path` (path inside the registry layout)
-- `checksum` (for integrity)
-- `description`
+- `url`
+- `ref` (optional: branch, tag, or version identifier)
+- `checksum` (optional: integrity)
+- `priority` (optional: explicit ordering if needed)
 
 ## Naming and versioning conventions
 
