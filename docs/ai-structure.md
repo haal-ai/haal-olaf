@@ -10,9 +10,11 @@ This makes it difficult and costly for enterprises to switch tools, because many
 New specifications such as SKILLS or AGENTS.MD have appeared and will continue to appear (e.g., AWS POWERS.md) without providing any common structure.
 
 ## Proposal
-We propose a single .olaf folder that all tools can read from and write to, and that can also be used in registries.
+We propose a single `.haal/` folder at the repository root that all tools can read from and write to.
 
-This approach simplifies .gitignore files and installation significantly.
+We keep `.olaf/` for shared, non-AI artifacts such as `works/` and `data/`.
+
+This approach simplifies `.gitignore` files and installation significantly.
 
 ## Structure
 The current set of artifacts we identified includes:

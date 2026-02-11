@@ -23,7 +23,9 @@ skill-1/
 ```
 Where:
 - `templates/` contains all templates referenced in the SKILL.md file - these can be .md, .json, .txt, etc.
-- `kb/` contains all knowledge base files referenced in the SKILL.md file - these can be .md, .json, .txt, etc.
+- `kb/` contains knowledge base files referenced by the SKILL.md file - these can be .md, .json, .txt, etc.
+  - Use `kb/` for skill-specific reference material that should travel with the skill.
+  - For shared reference material across multiple skills, prefer `.olaf/data/kb/` and reference it from skills.
 - `tools/` contains all tools referenced in the SKILL.md file - these can be .py, .js, .ts, etc.
 - `docs/` contains all documentation files referenced in the SKILL.md file - these can be .md, .json, .txt, etc.
 - `examples/` contains conversation trajectories showing skill usage - these should be .md files.

@@ -26,7 +26,7 @@ Enterprises must have a defined structure to simplify artifact delivery.
 
 ### Foundation and Structure
 - **[Common Conventions](docs/common-coventions.md)** - File naming and general conventions across the framework
-- **[Repo OLAF Structure](docs/repo-olaf-structure.md)** - Complete repository structure with .olaf folder organization
+- **[Repo Structure](docs/repo-structure.md)** - Complete repository structure with .olaf and .haal folder organization
 - **[AI Structure](docs/ai-structure.md)** - AI-specific folder structure and artifact organization
 
 ### Implementation Guidelines

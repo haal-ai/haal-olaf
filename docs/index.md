@@ -25,7 +25,7 @@ Enterprises need a defined structure to simplify artifact delivery.
 
 1. **Read the [History and Legitimacy](history-and-legitimacy.md)** to understand why OLAF exists
 2. **Review [Common Conventions](common-coventions.md)** for basic naming and file rules
-3. **Explore [Repository Structure](repo-olaf-structure.md)** to understand the organization
+3. **Explore [Repository Structure](repo-structure.md)** to understand the organization
 4. **Check [Essential Skills](essential-skills.md)** for core functionality requirements
 
 ## Structure

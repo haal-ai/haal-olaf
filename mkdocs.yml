@@ -12,7 +12,7 @@ nav:
     - History and Legitimacy: history-and-legitimacy.md
   - Foundation:
     - Common Conventions: common-coventions.md
-    - Repository Structure: repo-olaf-structure.md
+    - Repository Structure: repo-structure.md
     - AI Structure: ai-structure.md
   - Implementation:
     - Essential Skills: essential-skills.md
@@ -73,7 +73,7 @@ markdown_extensions:
       permalink: true
 
 extra:
-  social:
+  social:p
     - icon: fontawesome/brands/github
       link: https://github.com/haal-ai/haal-olaf
 

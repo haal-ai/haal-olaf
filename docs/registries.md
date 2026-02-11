@@ -12,37 +12,37 @@ This document defines a common structure and naming conventions for registries s
 
 ## Relationship to the OLAF repository structure
 
-OLAF defines a repository layout centered on `.olaf/`.
+OLAF defines a split repository layout: `.haal/` is the canonical root for AI artifacts, while `.olaf/` contains shared non-AI artifacts such as `works/` and `data/`.
 Registries should mirror the artifact organization used in the repository structure, so installers can map remote artifacts to local destinations.
 
 Example local repository structure:
 
 ```
+.haal/
+├── skills/
+├── agents/
+├── commands/
+├── hooks/
+└── plugins/
+
 .olaf/
 ├── works/
-├── data/
-└── ai/
-    ├── skills/
-    ├── agents/
-    ├── commands/
-    ├── hooks/
-    └── plugins/
+└── data/
 ```
 
 Example registry structure (distribution layout):
 
 ```
-.olaf/
-└── ai/
-    ├── skills/
-    │   └── create-skill/
-    │       ├── SKILL.md
-    │       └── templates/
-    ├── agents/
-    ├── commands/
-    ├── hooks/
-    ├── plugins/
-    └── registries.json
+.haal/
+├── skills/
+│   └── create-skill/
+│       ├── SKILL.md
+│       └── templates/
+├── agents/
+├── commands/
+├── hooks/
+├── plugins/
+└── registries.json
 ```
 
 ## Registry configuration (`registries.json`)
@@ -56,7 +56,8 @@ Example registry structure (distribution layout):
 
 ### Installation order and overrides
 
-Installers should process registries in **reverse order**:
+The reference shell/PowerShell installer installs registries so that the primary registry wins conflicts.
+To achieve this, installers should install secondary registries first, then install the primary registry last.
 
 1. Install artifacts from the last secondary registry.
 2. Continue installing toward the first secondary registry.
@@ -85,7 +86,7 @@ Recommended fields:
 
 Installers should be able to:
 
-- Install artifacts from one or multiple registries into the local `.olaf/ai/` structure.
+- Install artifacts from one or multiple registries into the local `.haal/` structure.
 - Resolve and enforce artifact versions.
 - Support enterprise policy (allowed registries, required artifacts, pinned versions).
 - Roll back to a previous version when needed.

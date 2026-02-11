@@ -12,6 +12,8 @@ Given the rationale for this proposal, this approach creates a burden with littl
 ## Proposal
 We aim to define requirements for a common installer that works with artifacts across tools, or to simplify vendor solutions when installing a new tool alongside existing ones.
 
+In this repository, the reference implementation is a shell-based installer (PowerShell on Windows and a POSIX shell on macOS/Linux). Other implementations (for example, a compiled installer) are optional, as long as they follow the same requirements.
+
 **Important Note**: This installer installs artifacts (skills, agents, commands, hooks, etc.) on existing tools, not the tools themselves.
 
 ### Common installer requirements
